@@ -1,0 +1,5 @@
+generator: <<CODE
+!bash
+port=$(config port)
+echo 0.0.0.0:$port
+CODE
